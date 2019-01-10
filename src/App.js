@@ -8,14 +8,21 @@ const Title = styled.h1`
   background-color: rgb(178, 251, 251);
 `;
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(178, 251, 251);
+`;
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <Container className="App">
         <Title>Learn React Forms</Title>
         <Register />
         <TodoApp />
-      </div>
+      </Container>
     );
   }
 }
