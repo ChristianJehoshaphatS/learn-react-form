@@ -12,7 +12,13 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 500px;
   background-color: rgb(178, 251, 251);
+  border: solid blue 2px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 30px;
 `;
 
 class App extends Component {

@@ -5,8 +5,12 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(178, 251, 251);
-  border-bottom: solid blue 2px;
+  width: 300px;
+  border-right: solid blue 2px;
+  border-left: solid blue 2px;
+  border-top: solid blue 2px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
 `;
 
 const Form = styled.form`
@@ -22,7 +26,8 @@ const Input = styled.input`
   :hover {
     color: blue;
     cursor: pointer;
-    box-shadow: 1px darkblue;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+      0 3px 1px -2px rgba(0, 0, 0, 0.2);
   }
   :focus {
     outline: none;
@@ -36,7 +41,8 @@ const InputButton = styled.input`
   :hover {
     color: blue;
     cursor: pointer;
-    box-shadow: 1px darkblue;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+      0 3px 1px -2px rgba(0, 0, 0, 0.2);
   }
   :focus {
     outline: none;
@@ -58,6 +64,7 @@ const Ul = styled.ul`
 
 const Li = styled.li`
   font-weight: 800;
+  padding: 10px;
 `;
 
 const Remove = styled.input`

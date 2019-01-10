@@ -5,8 +5,12 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(178, 251, 251);
+  width: 300px;
   border-bottom: solid blue 2px;
+  border-right: solid blue 2px;
+  border-left: solid blue 2px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 `;
 
 const Form = styled.form`
@@ -18,17 +22,22 @@ const Form = styled.form`
 const TodoInput = styled.input`
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  border-right: none;
   padding: 5px;
   border-color: rgb(24, 248, 173);
+  background-color: rgba(255, 255, 255, 0.5);
   :focus {
     outline: none;
   }
 `;
 
 const Input = styled.input`
-  border-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   padding: 5px;
   border-color: rgb(24, 248, 173);
+  border-left: none;
+  background-color: rgba(255, 255, 255, 0.3);
   :hover {
     color: blue;
     cursor: pointer;
