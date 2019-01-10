@@ -17,12 +17,15 @@ const Form = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 `;
 
 const Input = styled.input`
   border-radius: 15px;
   padding: 5px;
   border-color: rgb(24, 248, 173);
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 10px;
   :hover {
     color: blue;
     cursor: pointer;
@@ -38,6 +41,8 @@ const InputButton = styled.input`
   border-radius: 15px;
   padding: 5px;
   border-color: rgb(24, 248, 173);
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 10px;
   :hover {
     color: blue;
     cursor: pointer;

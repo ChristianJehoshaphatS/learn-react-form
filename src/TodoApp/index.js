@@ -26,6 +26,12 @@ const TodoInput = styled.input`
   padding: 5px;
   border-color: rgb(24, 248, 173);
   background-color: rgba(255, 255, 255, 0.5);
+  :hover {
+    color: blue;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  }
   :focus {
     outline: none;
   }
@@ -41,7 +47,8 @@ const Input = styled.input`
   :hover {
     color: blue;
     cursor: pointer;
-    box-shadow: 1px darkblue;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   }
   :focus {
     outline: none;
